@@ -4,7 +4,7 @@ import cors from "cors"
 import fetch from "node-fetch"
 import UserRoutes from "./routes/users.js"
 import 'dotenv/config'
-import connectDB from "./connect-db.js"
+//import connectDB from "./config/connect-db.js"
 
 const app = express()
 
