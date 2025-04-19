@@ -15,7 +15,7 @@ app.use(morgan('dev'))
 app.use(UserRoutes)
 app.use(express.static('./uploads'))
  
-connectDB()
+//connectDB()
 
 app.get("/", async(req, res)=>{
    try {
